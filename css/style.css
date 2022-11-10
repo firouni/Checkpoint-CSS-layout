@@ -1,0 +1,60 @@
+body {
+    margin: 0 200px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#logo {
+    align-items: flex-start;
+    height: 80px;
+    width: 120px;
+    padding: 1px;
+    margin: 0 10px;
+}
+#ab {
+    color: #00b39b;
+}
+ul {
+    text-decoration: none;
+    align-content: flex-end;
+    list-style-type: none;
+}#ababab
+.navbar li {
+    display: flex;
+
+}
+/*Intro*/
+.in {
+    display: block;
+    align-content: center;
+}
+.intop {
+    display: block;
+    align-content: center;
+}
+/*profil*/
+.prof{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cat-prof {
+    display: flex;
+    justify-content: space-around;
+
+}
+/*Sponsors*/
+.sp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: ;
+    margin: ;
+}
+.sp+ul {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-around;
+}
