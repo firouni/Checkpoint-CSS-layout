@@ -18,7 +18,32 @@
             <ul>
                 <li><a href="/about" id="ab">About us</a></li>
                 <li><a href="/career">Career</a></li>
-                <li><a href="/depart.">Departments</a></li>
+                <li><a href="/depart."></a>
+                    <div class="dropdown">
+                        <button class="dropbtn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Departments
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <ul>
+                        <li>
+                            <a class="dropdown-item" href="#">Marketing & PR</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Customer success and sales</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">IT, Product, Data</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Finance and administration</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">HR & more</a>
+                        </li>
+                        </ul>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
     </header>
@@ -26,30 +51,29 @@
     <main>
         <!--partie intro-->
         <div class="in">
-            <img src="./sygnet.png">
+            <img src="./sygnet.png" id="lg">
             <h1>Making the healthcare experience more human</h1>
         </div>
         <div class="intop">
             <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
-        </div>
-        <div class="intop">
+        
             <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
         </div>
         <!--# profils-->
         <section class="prof">
-            <div class="cat-prof">
+            <div class="cat-prof1">
                 <img src="./icon-patients.png">
                 <h1>For patients</h1>
                 <h2>Find a doctor, book a visit and solve any health-related doubt</h2>
                 <option>Choose country</option>
             </div>
-            <div class="cat-prof">
+            <div class="cat-prof2">
                 <img src="./icon-doctors.png">
                 <h1>For doctors</h1>
                 <h2>Save time managing visits and cut no-shows by half</h2>
                 <option>Choose country</option>
             </div>
-            <div class="cat-prof">
+            <div class="cat-prof3">
                 <img src="./icon-clinics.png">
                 <h1>For clinics</h1>
                 <h2>Deliver an exceptional patient experience in your clinic</h2>
@@ -59,56 +83,57 @@
         </section>
         <!--Sponsors-->
         <section class="sp">
-            <h1>We are a global company
-                with local culture</h1>
+            <h1><span> We are a global company
+                with local culture</span></h1>
             <ul>
                 <li>
                     <a href="https://www.znanylekarz.pl/?__hstc=94104962.fd551d58162dea7289c7c09db13e4a6a.1667903225917.1667908670420.1667913397488.4&__hssc=94104962.4.1667913397488&__hsfp=877326265"></a>
-                    <img src="./logo-ZnanyLekarz.jpg">
+                    <img src="./logo-ZnanyLekarz.jpg" class="spimg" id="spimg">
                 </li>
                 <li>
                     <a href="https://www.doctoralia.es/?__hstc=94104962.fd551d58162dea7289c7c09db13e4a6a.1667903225917.1667908670420.1667913397488.4&__hssc=94104962.4.1667913397488&__hsfp=877326265"></a>
-                    <img src="./logo-doctoralia.svg">
+                    <img src="./logo-doctoralia.svg" class="spimg">
                 </li>
                 <li>
                     <a href="https://www.miodottore.it/?__hstc=94104962.fd551d58162dea7289c7c09db13e4a6a.1667903225917.1667908670420.1667913397488.4&__hssc=94104962.4.1667913397488&__hsfp=877326265"></a>
-                    <img src="./logo-miodottore.svg">
+                    <img src="./logo-miodottore.svg" class="spimg">
                 </li>
                 <li>
                     <a href="https://www.doktortakvimi.com/?__hstc=94104962.fd551d58162dea7289c7c09db13e4a6a.1667903225917.1667908670420.1667913397488.4&__hssc=94104962.4.1667913397488&__hsfp=877326265"></a>
-                    <img src="./logo-doktortakvimi.svg">
+                    <img src="./logo-doktortakvimi.svg" class="spimg">
                 </li>
                 <li>
                     <a href="https://www.znamylekar.cz/?__hstc=94104962.fd551d58162dea7289c7c09db13e4a6a.1667903225917.1667908670420.1667913397488.4&__hssc=94104962.4.1667913397488&__hsfp=877326265"></a>
-                    <img src="./logo-znamylekar.svg">
+                    <img src="./logo-znamylekar.svg" class="spimg">
                 </li>
                 <li>
                     <a href="https://www.tuotempo.it/?__hstc=94104962.fd551d58162dea7289c7c09db13e4a6a.1667903225917.1667908670420.1667913397488.4&__hssc=94104962.4.1667913397488&__hsfp=877326265"></a>
-                    <img src="./tuo-tempo-logo.svg">
+                    <img src="./tuo-tempo-logo.svg" class="spimg">
                 </li>
                 <li>
                     <a href="https://gipo.it/?__hstc=94104962.fd551d58162dea7289c7c09db13e4a6a.1667903225917.1667908670420.1667913397488.4&__hssc=94104962.4.1667913397488&__hsfp=877326265"></a>
-                    <img src="./logo-gipo.svg">
+                    <img src="./logo-gipo.svg" class="spimg">
                 </li>
                 <li>
                     <a href="https://clinic-cloud.com/"></a>
-                    <img src="./logocliniccloud.png">
+                    <img src="./logocliniccloud.png" class="spimg">
                 </li>
                 <li>
                     <a href="https://www.jameda.de/?__hstc=94104962.fd551d58162dea7289c7c09db13e4a6a.1667903225917.1667908670420.1667913397488.4&__hssc=94104962.4.1667913397488&__hsfp=877326265"></a>
-                    <img src="./jameda-gmbh-logo-vector.png">
+                    <img src="./jameda-gmbh-logo-vector.png" class="spimg">
                 </li>
             </ul>
         </section>
         <!--Stats-->
-        <section>
-            <div>
+        <section class="st">
+            <div class="st1">
                 <h1>The world's biggest<br>
                     healthcare platform</h1>
                 <p>We work from 9 offices all over the world, bringing Docplanner Group to life in 13 countries.</p>
+                <img src="./sygnet.png" id="log">
             </div>
-            <div>
-                <div>
+            <div class="st2">
+                <div class="x1">
                     <img src="./flag.png">
                     <h3>
                         Leader in 13
@@ -116,7 +141,7 @@
                     </h3>
                     <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile.</p>
                 </div>
-                <div>
+                <div class="x2">
                     <img src="./visits.png">
                     <h3>
                         13,000,000
@@ -124,7 +149,7 @@
                     </h3>
                     <p>booked last month</p>
                 </div>
-                <div>
+                <div class="x1">
                     <img src="./patients.png">
                     <h3>
                         85,000,000
@@ -132,7 +157,7 @@
                     </h3>
                     <p>visit our websites each month</p>
                 </div>
-                <div>
+                <div class="x2">
                     <img src="./doctors.png">
                     <h3>
                         190,000
@@ -143,15 +168,15 @@
             </div>
         </section>
         <!--Offices-->
-        <section>
-            <header>
+        <section class="office">
+            <header class="oh">
                 <h1>
                     Improve the lives of millions.
                     <br>Change yours forever.
                 </h1>
                 <p>More than 2600 team mates share our same vision, goals and passion. With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna, Mexico City and Curitiba, our search for great talent never stops.</p>
             </header>
-            <main>
+            <main class="om">
                 <div>
                     <a href="">
                         <figure>
@@ -256,5 +281,8 @@
             "www.docplanner.com © 2022"
         </div>
     </footer>
+    <script lang="javascript">
+        console.log('hello'):hello
+    </script>
 </body>
 </html>
